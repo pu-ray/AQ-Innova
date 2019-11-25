@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang ="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device=width, initial-scale=1.0">
+	<meta http-equiv="x-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" type="text/css" href="./style.css">
+	<title>AQ Innova</title>
+</head>
+<body>
+	<div class="preload">
+		<img src="./mata.png" >
+		<h3>Loading</h3>
+		<img class="fun.jpg" src="./fun.png" width="200px" height="200px">
+		<img class="fun.jpg" src="./fun1.png" width="200px" height="200px">
+		<img class="fun.jpg" src="./fun2.png" width="200px" height="200px" >
+	</div>
+<style>
+		
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+		}
+
+.preload{
+    
+    top: 0;
+    width: 100%
+   /* height:100vh;*/
+    background-color: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fun,
+.fun1, 
+.fun2{
+    height: 100px;
+    position: absolute;
+    right: 0%;
+
+}
+.fun{
+  top: 25%;
+
+  transform: translate(100%, -25%);
+}
+.fun1{
+ top: 50%;
+}
+.fun2{
+  top: 75%;
+}
+</style>
+<script type="./app.js"></script>
+
+</body>
+</html>
